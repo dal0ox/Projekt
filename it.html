@@ -1,40 +1,61 @@
-
 <!DOCTYPE html>
-
-<html lang="de">
- 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body, html {
   height: 100%;
   margin: 0;
-  
-  background-image: url("https://www.cosmoto.com/typo3temp/assets/_processed_/f/f/csm_girls-change-it-projekt-teaser-01_02_06d6a80dec.jpg ");
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://media.istockphoto.com/id/1061262324/de/vektor/feminismus-frauen-plattform-web-site-weibliche-gemeinschaft-laptop-bildschirm-digital.jpg?s=612x612&w=0&k=20&c=bHn758Omo7pINOYduQdu6j4VKrkoij6nTUZ8SpJt6Ng=");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
   /* Full height */
   height: 100%; 
-
+  
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;  
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 </style>
-
-
-
-
- <head>
-<title>IT-Girls Everyonecodes</title>
-<link rel=stylesheet href=style.css>
 </head>
-<h1 style="text-align: center;"> IT, ist das was für mich?</h1>
 <body>
-<p> Es ist ein 6-wöchiger IT-Orientierungskurs für weibliche und diverse Personen im Alter von 16 bis 25 Jahren.<br> Wir sind heuer 14 Personen</p>
-<ul>
-<li>Erste Woche</li>
-<li>Zweite Woche</li>
-<li>Dritte Woche</li>
-<li>Vierte Woche</li>
-<li>Fünfte Woche</li>
-</ul>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1 style="font-size:50px">IT, ist das was für mich?</h1>
+  <p>ein 6-wöchiger IT-Orientierungskurs für weibliche und diverse Personen im Alter von 16 bis 25 Jahren</p>
+</div>
+
+</body>
+</html>
