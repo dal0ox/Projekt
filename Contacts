@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>IT-Girls Contact</title>
+</head>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+h1 {
+    color: purple;
+	font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+	color: purple;
+    font-family: verdana;
+    font-size: 20px;
+	text-align: center;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+li {
+	color: pink;
+	font-family: verdana;
+    font-size: 20px;
+	position:relative;
+            margin-left: auto;
+			margin-right: auto;
+			width: 250px;
+	text-shadow: 2px 5px 4px rgba(0,0,0,22);
+	
+}
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://media.istockphoto.com/id/1061262324/de/vektor/feminismus-frauen-plattform-web-site-weibliche-gemeinschaft-laptop-bildschirm-digital.jpg?s=612x612&w=0&k=20&c=bHn758Omo7pINOYduQdu6j4VKrkoij6nTUZ8SpJt6Ng=");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  width: 80%;
+  padding: 20px;
+ 
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -1500%);
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  
+   
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Homepage.html#">Home</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Services.html">Services</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%201.html">Programm</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Contacts.html">Contact</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+ <h1 class="glow">Contact</h1>
+ <ul>
+ 
+ <pre> <li>Everyone Codes GmbH
+Adresse: Muthgasse 58/60, 1190 Wien </li></pre>
+ 
+ <pre> <li>Email-Adresse: it-orientation@everyonecodes.io</li></pre>
+ 
+ <pre> <li>Öffnungszeiten: 
+
+Montag		08:30–17:30
+Dienstag  	08:30-17:30
+Mittwoch 	08:30–17:30
+Donnerstag	08:30–17:30
+Freitag		08:30–17:30
+Samstag		Geschlossen
+Sonntag		Geschlossen
+
+
+</li></pre>
+
+</div>
+
+<div class="container">
+  <div class="bg-image"></div>
+  <div class="centered"></div>
+ <div class="container">
+  <div class="bg-image"></div>
+  <div class="centered"></div>
+  
+ <p>
+ https://everyonecodes.io/ 
+
+ 
+ <h2> Ansprechperson </h2>
+ <img src="https://img.pagecloud.com/camqGyLuKNqT26dPYfmVr6Be9Wk=/232x0/filters:no_upscale()/everyones-website/Giulia.png" height="250"  width="250">
+ <pre>
+ 
+ Giulia Mozzato
+Project Manager Vienna & Communications
+
+
+</pre>
+
+<h3> Mentoren </h3>
+
+
+<img src="https://img.pagecloud.com/ZxdnydZgBATQm73YUIh9S_tdlKI=/232x0/filters:no_upscale()/everyones-website/images/Template.png" height="250"  width="250">
+
+
+<pre>
+
+ Rea Sutter
+"IT, ist das was für mich?" Mentor
+
+
+
+
+</pre>
+
+<img src="https://img.pagecloud.com/Ru4ujV-6Gnqx0qTc2VjvYTJdjt4=/232x0/filters:no_upscale()/everyones-website/Wayne_1.png" height="250"  width="250">
+<pre>
+
+ Wayne Manikan
+Assistant
+
+
+</pre>
+
+
+
+</p>
+  
+</div>
+
+</body>
+</html>
