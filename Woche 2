@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>Zweite Woche</title>
+<title>IT-Girls Woche 2</title>
 </head>
 
 
@@ -99,14 +99,14 @@ p {
 }
 
 li {
-	color: Black;
+	color: pink;
 	font-family: verdana;
     font-size: 20px;
 	position:relative;
             margin-left: auto;
 			margin-right: auto;
 			width: 250px;
-	
+	text-shadow: 2px 5px 4px rgba(0,0,0,22);
 	
 }
 
@@ -192,12 +192,13 @@ body, html {
 
 <div id="mySidenav" class="sidenav">
   
-  <a href="file:///C:/Users/User/Documents/IT-Girls.html">Startseite</a>
-  <a href="#">Woche 1</a>
-  <a href="#"> Woche 2 </a>
-  <a href="#">Woche 3</a>
-  <a href="#">Woche 4</a>
-  <a href="#">Woche 5</a>
+  
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Homepage.html">Startseite</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%201.html"> Woche 1</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%202.html"> Woche 2 </a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%203.html"> Woche 3</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%204.html">Woche 4</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%205.html">Woche 5</a>
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -209,32 +210,45 @@ body, html {
 <div class="bg-text">
  <h1 class="glow">Zweite Woche</h1>
  
-
-</div>
-
-<div class="container">
-  <div class="bg-image"></div>
-  <div class="centered"></div>
- <div class="container">
-  <div class="bg-image"></div>
-  <div class="centered"></div>
-  <pre>
 <pre> 
 <ul>
+
 <li>Lego Robotern kennenlernen</li>
 <li>Lego Mindstorms</li>
 <li>Lego Space Challenge</li>
 <li>Keyboard Shortcuts</li>
 <li>Unterschied: Internet-Browser-Suchmaschine</li>
+
 </ul> 
 </pre>
- <img src="https://ec-mentors.github.io/IT-ist-das-was-fuer-mich/_images/lego-challenge-1.jpeg"><p>
- <img src="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt4a6d7583d277155d/5ec7c25ad5c7d2262a38d177/unit-plan-robot-trainer.png?locale=de-de&auto=webp&format=jpeg&width=1800&quality=90&fit=bounds"><p>
- <img src="https://robooky.ru/wp-content/uploads/2017/04/2d9e36d3-afaf-4203-aa23-a58d00d7ca07.jpg"><p>
+</div>
 
-  
+<div class="container">
+  <div class="bg-image"></div>
+  <div class="centered"></div>
 
+  <pre><p>
   
+  <strong>Laptop und Lego Roboter(EV3) kennenlernen</strong>
+  Wir haben über die verschiedenen Eigenschaften des Laptops 
+  recherchiert(RAM,CPU,etc.).
+  Wir haben uns den Lego Roboter angeschaut.
+  Außerdem haben wir ein paar Keyboard shortcuts besprochen.
+  
+  <strong>Lego Mindstorms</strong>
+  Die ersten Challenges des Lego Roboters haben wir bewältigt!
+
+ <strong>Lego Space Challenge</strong>
+ Wir haben uns einer speziellen Lego Roboter Aufgabe gestellt.
+ </pre> </p>
+ 
+  <pre>
+
+ <img src="https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt4a6d7583d277155d/5ec7c25ad5c7d2262a38d177/unit-plan-robot-trainer.png?locale=de-de&auto=webp&format=jpeg&width=1800&quality=90&fit=bounds"height="600" width="600">
+ <img src="https://robooky.ru/wp-content/uploads/2017/04/2d9e36d3-afaf-4203-aa23-a58d00d7ca07.jpg" height="600" width="600">
+ <img src="https://i.ytimg.com/vi/VvZxhI13W4U/maxresdefault.jpg" height="600" width="700">
+ <img src="https://ec-mentors.github.io/IT-ist-das-was-fuer-mich/_images/lego-challenge-1.jpeg" height="600" width="600" >
+  </pre>
 </div>
 
 </body>
