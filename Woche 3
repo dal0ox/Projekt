@@ -99,16 +99,17 @@ p {
 }
 
 li {
-	color: Black;
+	color: pink;
 	font-family: verdana;
     font-size: 20px;
 	position:relative;
             margin-left: auto;
 			margin-right: auto;
 			width: 250px;
-	
+	text-shadow: 2px 5px 4px rgba(0,0,0,22);
 	
 }
+
 
 
 body, html {
@@ -192,12 +193,13 @@ body, html {
 
 <div id="mySidenav" class="sidenav">
   
-  <a href="file:///C:/Users/User/Documents/IT-Girls.html">Startseite</a>
-  <a href="#">Woche 1</a>
-  <a href="#"> Woche 2 </a>
-  <a href="#">Woche 3</a>
-  <a href="#">Woche 4</a>
-  <a href="#">Woche 5</a>
+  
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Homepage.html">Startseite</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%201.html"> Woche 1</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%202.html"> Woche 2 </a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%203.html"> Woche 3</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%204.html">Woche 4</a>
+  <a href="file:///C:/Users/User/Documents/IT-Girls%20Woche%205.html">Woche 5</a>
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -209,13 +211,6 @@ body, html {
 <div class="bg-text">
  <h1 class="glow">Dritte Woche</h1>
  
-
-</div>
-
-<div class="container">
-  <div class="bg-image"></div>
-  <div class="centered"></div>
-  <pre>
   <pre> 
 <ul>
 <li>Microbit Einführung</li>
@@ -224,12 +219,40 @@ body, html {
 <li>Berufe und Ausbildungen</li>
 </ul>
 </pre>
+
+</div>
+
+<div class="container">
+  <div class="bg-image"></div>
+  <div class="centered"></div>
+ <pre><p>
+ 
+<strong>Microbit Einführung</strong>
+ Wir haben zum ersten mal mit dem Microbit gearbeitet und ein Plakat 
+ mit seinen Eckdaten gestaltet.
+  
+ <strong>Microbit</strong>
+ Heute war der Emoji-Würfel dran. 
+
+ <strong>Web Intro</strong>
+ Präsentation von UX-Designerin Anna Großalber, Alumna von Everyone Codes.
+ Wir haben das erste mal mit Github gearbeitet.
+
+ <strong>Berufe und Ausbildungen</strong>
+ Eine Präsentation über IT-Ausbildungen und Berufe.
+ 
+</pre></p> 
+  
+  <pre>
+ 
  <img src="https://pxt.azureedge.net/blob/e03f64a983c3650f5487009bd9952b1248954e45/static/mb/projects/name-tag.png"><p>
  <img src="https://pxt.azureedge.net/blob/bd3236c80ed86cbf0b99ff39f26469683c512ebc/static/mb/projects/a1-display.png"><p>
  <img src="https://pxt.azureedge.net/blob/cb81642a25f424bc62d30f74f6072e07b6db85d9/static/mb/projects/dice.png"><p>
  <img src="https://ec-mentors.github.io/IT-ist-das-was-fuer-mich/_images/emoji_retro.gif"><p>
   
-  </p> 🎲 + 😃 = ❓</pre>
+  
+  
+  </pre>
   
 </div>
 
